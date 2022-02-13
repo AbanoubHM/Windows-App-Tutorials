@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw", "Draw\Draw.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragDrop", "DragDrop\DragDrop.csproj", "{1A5A5877-EAF8-4EDF-8985-BF27F45AD607}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "MDI\MDI.csproj", "{879123EA-3D2C-4C5D-9317-97725D6C65DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpnDwn", "UpnDwn\UpnDwn.csproj", "{764A20A0-F85F-4985-9005-523D70A6C8C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1A5A5877-EAF8-4EDF-8985-BF27F45AD607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A5A5877-EAF8-4EDF-8985-BF27F45AD607}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A5A5877-EAF8-4EDF-8985-BF27F45AD607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879123EA-3D2C-4C5D-9317-97725D6C65DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879123EA-3D2C-4C5D-9317-97725D6C65DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879123EA-3D2C-4C5D-9317-97725D6C65DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879123EA-3D2C-4C5D-9317-97725D6C65DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764A20A0-F85F-4985-9005-523D70A6C8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764A20A0-F85F-4985-9005-523D70A6C8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764A20A0-F85F-4985-9005-523D70A6C8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764A20A0-F85F-4985-9005-523D70A6C8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

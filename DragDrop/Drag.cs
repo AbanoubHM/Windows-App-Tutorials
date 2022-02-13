@@ -22,13 +22,15 @@ namespace DragDrop {
         }
         protected override void OnMouseDown(MouseEventArgs e) {
             if (e.Button == MouseButtons.Left) {
-                rect = new Rectangle(e.X - 25, e.Y - 25, 50, 50);
+                rect.X = e.X - 25;
+                rect.Y = e.Y - 25;
                 Invalidate();
             }
         }
         protected override void OnMouseMove(MouseEventArgs e) {
             if (e.Button == MouseButtons.Left) {
-                rect = new Rectangle(e.X - 25, e.Y - 25, 50, 50);
+                rect.X = e.X - 25;
+                rect.Y = e.Y - 25;
                 Invalidate();
             }
         }

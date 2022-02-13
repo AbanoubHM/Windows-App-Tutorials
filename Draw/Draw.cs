@@ -27,7 +27,7 @@ namespace Draw {
 
         private void panel1_MouseMove(object sender, MouseEventArgs e) {
             if (moving && x != -1 && y != -1) {
-                g.DrawLine(new Pen(Color.Red), new Point(x, y), e.Location);
+                g.DrawLine(new Pen(Color.Red,5), new Point(x, y), e.Location);
             }
             x = e.X;
             y = e.Y;
